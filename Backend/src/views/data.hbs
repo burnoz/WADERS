@@ -1,0 +1,31 @@
+<div class="container">
+  <h1>Datos</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>N.</th>
+        <th>Litros dispensados</th>
+        <th>Litros recolectados</th>
+        <th>Clientes totales</th>
+        <th>Clientes diarios</th>
+        <th>Estado de la máquina</th>
+        <th>Liquido disponible</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each tasks}}
+        <tr>
+          <td>{{id}}</td>
+          <td>{{litros_d}}</td>
+          <td>{{litros_r}}</td>
+          <td>{{clientes_t}}</td>
+          <td>{{clientes_d}}</td>
+          <td>{{estado}}</td>
+          <td>{{liquido}}</td>
+        </tr>
+      {{/each}}
+
+    </tbody>
+  </table>
+</div>

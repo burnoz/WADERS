@@ -1,0 +1,25 @@
+{
+  "name": "waders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "author": "burno",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.5",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4"
+  }
+}
