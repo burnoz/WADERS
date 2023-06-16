@@ -18,8 +18,8 @@ const char* serverName = "https://us-east-2.aws.data.mongodb-api.com/app/data-vx
 
 
 
-const char* ssid = "HuéspedesHotelytu";
-const char* password = "hotelytu0922";
+const char* ssid = " ";
+const char* password = " ";
 
 StaticJsonDocument<500> doc;
 
